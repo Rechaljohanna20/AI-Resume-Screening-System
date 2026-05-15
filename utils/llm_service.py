@@ -3,6 +3,7 @@ import json
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
+import streamlit as st
 
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
