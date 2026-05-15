@@ -10,7 +10,7 @@ print(api_key)
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",  
     temperature=0.3,
-    google_api_key=api_key
+    google_api_key=st.secrets["GOOGLE_API_KEY"]
 )
 ANALYSIS_PROMPT = PromptTemplate(
     input_variables=["resume", "job_description"],
