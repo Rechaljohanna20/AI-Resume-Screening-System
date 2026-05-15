@@ -80,7 +80,7 @@ st.markdown("""
     }
     .original-text {
         background-color: #fee2e2;
-        color: #991b1b
+        color: #991b1b;
         border-radius: 10px;
         padding: 12px;
         margin-bottom: 0.75rem;
